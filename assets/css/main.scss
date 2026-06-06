@@ -7,3 +7,123 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Job-market academic site refinements */
+.page__content {
+  font-size: 1.02em;
+  line-height: 1.65;
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3 {
+  letter-spacing: -0.015em;
+}
+
+.jm-kicker {
+  margin-top: -0.5rem;
+  color: #5a6673;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.jm-lead {
+  max-width: 860px;
+  font-size: 1.14rem;
+  line-height: 1.7;
+}
+
+.jm-actions {
+  margin: 1.25rem 0 2rem;
+}
+
+.jm-actions .btn {
+  margin-right: 0.45rem;
+  margin-bottom: 0.45rem;
+}
+
+.jm-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.75rem 0 2.25rem;
+}
+
+.jm-card,
+.paper-card {
+  border: 1px solid #e5e8eb;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.jm-card {
+  padding: 1.05rem 1.15rem;
+}
+
+.jm-card h2 {
+  margin-top: 0;
+  font-size: 1.08rem;
+}
+
+.jm-card ul {
+  margin-bottom: 0;
+}
+
+.paper-card {
+  padding: 1.2rem 1.3rem;
+  margin: 1rem 0 1.35rem;
+}
+
+.paper-card--featured {
+  border-left: 4px solid #3b5f88;
+}
+
+.paper-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+}
+
+.paper-meta {
+  color: #5a6673;
+  font-size: 0.96rem;
+  margin-bottom: 0.75rem;
+}
+
+.paper-links {
+  margin-bottom: 0.85rem;
+}
+
+@media (max-width: 760px) {
+  .jm-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .jm-lead {
+    font-size: 1.05rem;
+  }
+}
+
+/* CV page refinements */
+.cv-list {
+  margin: 0.75rem 0 1.35rem;
+}
+
+.cv-item {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  gap: 1rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid #eef0f2;
+}
+
+.cv-date {
+  color: #5a6673;
+  font-weight: 600;
+}
+
+@media (max-width: 760px) {
+  .cv-item {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+}

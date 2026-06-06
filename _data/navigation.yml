@@ -1,18 +1,15 @@
-# main links
+# Main navigation
 main:
-  - title: "About"
+  - title: "Home"
     url: /
-  - title: "CV"
-    url: /cv/
   - title: "Research"
     url: /research/
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "CV"
+    url: /cv/
+  - title: "Contact"
+    url: /contact/
+  # Add these once you have content for them:
+  # - title: "Teaching"
+  #   url: /teaching/
+  # - title: "Presentations"
+  #   url: /presentations/
