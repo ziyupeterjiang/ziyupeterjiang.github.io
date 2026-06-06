@@ -1,62 +1,202 @@
 ---
-title: "Research"
+title: "Ziyu (Peter) Jiang"
 layout: single
 classes: wide
-permalink: /research/
-excerpt: "Working papers and research projects by Ziyu (Peter) Jiang"
+permalink: /
+excerpt: "PhD Candidate in Economics at University College London"
 author_profile: false
 ---
 
-My research develops econometric tools for settings where standard identification or inference arguments are strained by high-dimensional, non-Gaussian, or unstructured data. Drafts without public links are available upon request.
+<style>
+/* Homepage-specific layout. Kept here so the page works even if the main CSS is not edited. */
 
-## Working papers
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 1.75rem;
+}
 
-<article class="paper-card paper-card--featured">
-  <h3>Identification and Estimation of Simultaneous Equation Models Using Higher-Order Cumulant Restrictions</h3>
+.home-intro {
+  min-width: 0;
+}
 
-  <p class="paper-meta">
-    <strong>Status:</strong> Revise and resubmit, <em>Journal of Econometrics</em><br>
-    <strong>Public version:</strong> arXiv working paper, 2025
-  </p>
+.home-photo {
+  justify-self: end;
+}
 
-  <p class="paper-links">
-    <a href="https://arxiv.org/abs/2501.06777" class="btn btn--primary btn--small">arXiv</a>
-  </p>
+.home-photo img {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
 
-  <p><strong>Abstract.</strong> Identifying structural parameters in linear simultaneous-equation models is a fundamental challenge in economics and related fields. Recent work leverages higher-order moments, exploiting the fact that non-Gaussian data contain more structural information than Gaussian data. While many of these contributions require zero covariance among structural errors, this paper shows that the assumption, and the associated pre-whitening step, can be dispensed with. Under a diagonality condition on higher-order cumulants, the structural parameter matrix can be identified by solving a simple eigenvector problem. This insight motivates a sample-analogue estimator that is root-n-consistent, asymptotically normal, and computationally straightforward. When uncorrelatedness is an essential model feature, as in vector autoregressive models, the framework also provides a transparent misspecification test based on higher-order orthogonality conditions. Monte Carlo experiments demonstrate desirable finite-sample performance, and two empirical applications illustrate the method's practical value.</p>
-</article>
+.jm-kicker {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  color: #555;
+}
 
-<article class="paper-card">
-  <h3>Moment-Based Inference for Regression with Latent Dirichlet Covariates</h3>
+.jm-lead {
+  font-size: 1.08rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
 
-  <p class="paper-meta">
-    <strong>Status:</strong> Working paper<br>
-    <strong>Public version:</strong> arXiv working paper, 2026
-  </p>
+.jm-actions {
+  margin: 1rem 0 1.5rem 0;
+}
 
-  <p class="paper-links">
-    <a href="https://arxiv.org/abs/2605.30718" class="btn btn--primary btn--small">arXiv</a>
-  </p>
+.jm-actions .btn {
+  margin-right: 0.35rem;
+  margin-bottom: 0.35rem;
+}
 
-  <p><strong>Abstract.</strong> Topic models are often used as dimension-reduction tools before regression, with estimated document-level topic shares treated as observed covariates. This plug-in workflow creates two inferential difficulties: valid inference requires a regular first-stage-to-second-stage expansion that propagates topic-estimation uncertainty, and, at fixed document length, a document's topic mixture cannot be consistently recovered from its own words even when the population topic matrix is known.</p>
+.jm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem 0;
+}
 
-  <p>Corrected spectral moment methods for latent Dirichlet allocation (LDA) offer a starting point: when the total Dirichlet concentration is known, low-order word moments can be corrected to yield operators diagonal in the latent topic basis. We extend this to downstream regression.</p>
+.jm-card {
+  padding: 1rem 1.15rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  background: #fff;
+}
 
-  <p>Under a finite LDA model with response residuals orthogonal to the low-order token moments used for identification, response-weighted word moments admit the same correction, and the resulting supervised operator identifies the regression coefficient \(\beta\) directly, without estimating document-level topic shares. The main obstacle is that the correction depends on the unknown total concentration \(\alpha_0\).</p>
+.jm-card h2 {
+  margin-top: 0;
+  font-size: 1.05rem;
+}
 
-  <p>We show that, for \(k\ge3\) topics and under a generic finite-probe condition, \(\alpha_0\) is identified by commutativity: at the true value a family of corrected word-moment operators commute, whereas away from it they generically do not. This yields a feasible estimator and lets uncertainty in \(\hat\alpha_0\) propagate into inference for \(\beta\).</p>
+.jm-card ul {
+  margin-bottom: 0;
+}
 
-  <p>The estimator is asymptotically linear as the number of documents grows with fixed document length, with sandwich standard errors from document-level moment contributions. Simulations show near-nominal coverage where plug-in topic-share regressions can undercover, and an application to top economics journals illustrates contrast inference for latent topic effects.</p>
-</article>
+.home-paper-list {
+  margin-top: 1rem;
+}
 
-## Work in progress
+.home-paper {
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #e8e8e8;
+}
 
-<article class="paper-card">
-  <h3>Micro-foundation for Topic Models</h3>
+.home-paper:last-child {
+  border-bottom: none;
+}
 
-  <p class="paper-meta">
-    <strong>Status:</strong> Work in progress
-  </p>
-</article>
+.home-paper h3 {
+  margin-bottom: 0.4rem;
+}
 
-<!-- When you are on the job market, add a separate "Job Market Paper" heading above the relevant paper and place it first. -->
+.paper-meta {
+  margin-bottom: 0.65rem;
+}
+
+.paper-links .btn {
+  margin-right: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+@media (max-width: 760px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .home-photo {
+    justify-self: start;
+  }
+
+  .home-photo img {
+    width: 180px;
+  }
+}
+</style>
+
+<div class="home-hero">
+  <div class="home-intro">
+    <p class="jm-kicker">PhD Candidate in Economics · University College London</p>
+
+    <p class="jm-lead">
+      I am a PhD candidate in Economics at University College London. My research is in econometrics, with a focus on unstructured data, factor models, and higher-order moment methods. I also have secondary interests in causal inference methods and Vector Autoregression Models.
+    </p>
+
+    <!-- Add this sentence when you are on the job market:
+    <p class="jm-lead"><strong>I am on the 2026–27 economics job market.</strong></p>
+    -->
+
+    <div class="jm-actions">
+      <a href="/research/" class="btn btn--primary">Research</a>
+      <a href="/assets/files/ziyu_jiang_cv.pdf" class="btn btn--inverse">CV</a>
+      <a href="mailto:uctpzji@ucl.ac.uk" class="btn btn--inverse">Email</a>
+    </div>
+  </div>
+
+  <!-- Future formal photo:
+       When you have a formal photo, upload it to:
+       assets/images/profile.jpg
+
+       Then remove this comment wrapper so the block below becomes visible.
+
+  <div class="home-photo">
+    <img src="/assets/images/profile.jpg" alt="Ziyu (Peter) Jiang">
+  </div>
+  -->
+</div>
+
+<div class="jm-grid">
+  <section class="jm-card">
+    <h2>Research fields</h2>
+    <ul>
+      <li>Econometrics</li>
+      <li>Unstructured data</li>
+      <li>Factor models</li>
+    </ul>
+  </section>
+</div>
+
+## Working Papers
+
+<div class="home-paper-list">
+  <article class="home-paper">
+    <h3>Identification and Estimation of Simultaneous Equation Models Using Higher-Order Cumulant Restrictions</h3>
+
+    <p class="paper-meta">
+      Revise and resubmit, <em>Journal of Econometrics</em>. Public version available as an arXiv working paper.
+    </p>
+
+    <p class="paper-links">
+      <a href="https://arxiv.org/abs/2501.06777" class="btn btn--info btn--small">arXiv</a>
+      <a href="/research/" class="btn btn--inverse btn--small">Research page</a>
+    </p>
+  </article>
+
+  <article class="home-paper">
+    <h3>Moment-Based Inference for Regression with Latent Dirichlet Covariates</h3>
+
+    <p class="paper-meta">
+      Working paper. Public version available as an arXiv working paper.
+    </p>
+
+    <p class="paper-links">
+      <a href="https://arxiv.org/abs/2605.30718" class="btn btn--info btn--small">arXiv</a>
+      <a href="/research/" class="btn btn--inverse btn--small">Research page</a>
+    </p>
+  </article>
+</div>
+
+## Contact
+
+Department of Economics, University College London  
+Drayton House, 30 Gordon St, London WC1H 0AN  
+<a href="mailto:uctpzji@ucl.ac.uk">uctpzji@ucl.ac.uk</a>
