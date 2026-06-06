@@ -33,7 +33,7 @@ I am a PhD candidate in Economics at University College London. My research is i
       <li>Higher-order moment methods</li>
     </ul>
   </section>
-
+</div>
   
 
 ## Working Papers
