@@ -34,20 +34,22 @@ I am a PhD candidate in Economics at University College London. My research is i
     </ul>
   </section>
 
-  <section class="jm-card">
-    <h2>Current focus</h2>
-    <p>
-      My current projects study identification, estimation, and inference using higher-order moments and spectral methods, with applications to simultaneous-equation models and topic models.
-    </p>
-  </section>
-</div>
+  
 
-## Featured paper
+## Working Papers
 
-**Identification and Estimation of Simultaneous Equation Models Using Higher-Order Cumulant Restrictions**  
+### Identification and Estimation of Simultaneous Equation Models Using Higher-Order Cumulant Restrictions
+
 Revise and resubmit, <em>Journal of Econometrics</em>. Public version available as an arXiv working paper.
 
 <a href="https://arxiv.org/abs/2501.06777" class="btn btn--info btn--small">arXiv</a>
+<a href="/research/" class="btn btn--light-outline btn--small">Research page</a>
+
+### Moment-Based Inference for Regression with Latent Dirichlet Covariates
+
+Working paper. Public version available as an arXiv working paper.
+
+<a href="https://arxiv.org/abs/2605.30718" class="btn btn--info btn--small">arXiv</a>
 <a href="/research/" class="btn btn--light-outline btn--small">Research page</a>
 
 ## Contact
