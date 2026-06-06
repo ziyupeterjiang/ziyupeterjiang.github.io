@@ -8,7 +8,7 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Job-market academic site refinements */
+/* Academic site refinements */
 .page__content {
   font-size: 1.02em;
   line-height: 1.65;
@@ -20,8 +20,50 @@ search: false
   letter-spacing: -0.015em;
 }
 
+/* Homepage hero and future photo layout */
+.home-hero {
+  margin-bottom: 1.75rem;
+}
+
+/*
+  When a formal photo is added inside .home-hero, the layout becomes:
+  text on the left, photo on the right.
+
+  The .home-hero--with-photo class is a fallback option.
+  The :has(.home-photo) selector makes the grid activate automatically
+  once the photo block is uncommented in index.md.
+*/
+.home-hero:has(.home-photo),
+.home-hero--with-photo {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(170px, 230px);
+  gap: 2rem;
+  align-items: start;
+}
+
+.home-intro {
+  min-width: 0;
+}
+
+.home-photo {
+  justify-self: end;
+}
+
+.home-photo img {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.14);
+}
+
+/* Homepage intro text */
 .jm-kicker {
   margin-top: -0.5rem;
+  margin-bottom: 0.75rem;
   color: #5a6673;
   font-size: 1.05rem;
   font-weight: 600;
@@ -42,9 +84,10 @@ search: false
   margin-bottom: 0.45rem;
 }
 
+/* Homepage cards */
 .jm-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1rem;
   margin: 1.75rem 0 2.25rem;
 }
@@ -69,6 +112,7 @@ search: false
   margin-bottom: 0;
 }
 
+/* Research-page paper cards */
 .paper-card {
   padding: 1.2rem 1.3rem;
   margin: 1rem 0 1.35rem;
@@ -93,14 +137,29 @@ search: false
   margin-bottom: 0.85rem;
 }
 
-@media (max-width: 760px) {
-  .jm-grid {
-    grid-template-columns: 1fr;
-  }
+.paper-links .btn {
+  margin-right: 0.35rem;
+  margin-bottom: 0.35rem;
+}
 
-  .jm-lead {
-    font-size: 1.05rem;
-  }
+/* Homepage working-paper list */
+.home-paper-list {
+  margin-top: 1rem;
+}
+
+.home-paper {
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.home-paper:last-child {
+  border-bottom: none;
+}
+
+.home-paper h3 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
 }
 
 /* CV page refinements */
@@ -121,7 +180,30 @@ search: false
   font-weight: 600;
 }
 
+/* Mobile layout */
 @media (max-width: 760px) {
+  .home-hero:has(.home-photo),
+  .home-hero--with-photo {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .home-photo {
+    justify-self: start;
+  }
+
+  .home-photo img {
+    width: 180px;
+  }
+
+  .jm-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .jm-lead {
+    font-size: 1.05rem;
+  }
+
   .cv-item {
     grid-template-columns: 1fr;
     gap: 0.1rem;
