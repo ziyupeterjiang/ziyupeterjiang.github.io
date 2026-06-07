@@ -142,16 +142,9 @@ author_profile: false
     </div>
   </div>
 
-  <!-- Future formal photo:
-       When you have a formal photo, upload it to:
-       assets/images/profile.jpg
-
-       Then remove this comment wrapper so the block below becomes visible.
-
   <div class="home-photo">
     <img src="/assets/images/profile.jpg" alt="Ziyu (Peter) Jiang">
   </div>
-  -->
 </div>
 
 <div class="jm-grid">
