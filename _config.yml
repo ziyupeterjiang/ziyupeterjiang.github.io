@@ -299,3 +299,7 @@ defaults:
       share: true
       related: true
 
+  - scope:
+      path: "papers/*.pdf"
+    values:
+      sitemap: false
