@@ -7,7 +7,9 @@ excerpt: "Working papers and research projects by Ziyu (Peter) Jiang"
 author_profile: false
 ---
 
-My research develops econometric tools for settings where standard identification or inference arguments are strained by high-dimensional, non-Gaussian, or unstructured data. Drafts without public links are available upon request.
+My research connects methods from machine learning and computer science with econometric analysis. I develop methods for measuring economic concepts and studying economic relationships, with a focus on identification, estimation, and valid statistical inference.
+
+Drafts without public links are available upon request.
 
 ## Working Papers
 
