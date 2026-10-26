@@ -10,7 +10,7 @@ author_profile: false
 <a href="/assets/files/ziyu_jiang_cv.pdf" class="btn btn--primary">Download PDF CV</a>
 <a href="mailto:uctpzji@ucl.ac.uk" class="btn btn--inverse">Email</a>
 
-<p class="paper-meta"><strong>Last updated:</strong> June 6, 2026</p>
+<p class="paper-meta"><strong>Last updated:</strong> 25 October 2026</p>
 
 ## Contact
 
@@ -23,7 +23,7 @@ Drayton House, 30 Gordon St, London WC1H 0AN
 <div class="cv-list">
   <div class="cv-item">
     <div class="cv-date">2021-present</div>
-    <div><strong>PhD in Economics</strong>, University College London</div>
+    <div><strong>PhD in Economics</strong>, University College London<br>Principal supervisor: Áureo de Paula<br>Secondary supervisor: Andrei Zeleneev</div>
   </div>
   <div class="cv-item">
     <div class="cv-date">2021</div>
@@ -41,7 +41,14 @@ Drayton House, 30 Gordon St, London WC1H 0AN
 
 ## Research fields
 
-Econometrics; unstructured data; factor models.
+Econometrics; AI and Machine Learning Methods in Economics; NLP Methods and Unstructured Data; Factor Models.
+
+## Job market paper
+
+<article class="paper-card paper-card--featured">
+  <h3>Subjective Annotation Studies: Valid Inference and Annotation Design</h3>
+  <p class="paper-meta">Presented at ESIF-AIML 2026.</p>
+</article>
 
 ## Working papers
 
@@ -59,9 +66,38 @@ Econometrics; unstructured data; factor models.
 ## Work in progress
 
 <article class="paper-card">
-  <h3>Micro-foundation for Topic Models</h3>
+  <h3>Annotation Studies with a Fixed Panel of Annotators</h3>
   <p class="paper-meta">Work in progress.</p>
 </article>
+
+<article class="paper-card">
+  <h3>Microfoundations for Topic Models</h3>
+  <p class="paper-meta">Work in progress.</p>
+</article>
+
+## Honours, awards and scholarships
+
+<div class="cv-list">
+  <div class="cv-item">
+    <div class="cv-date">2022-present</div>
+    <div><strong>Centre for Microdata Methods and Practice (CeMMAP)</strong>, PhD scholarship</div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-date">2020</div>
+    <div><strong>Dean's List for Academic Excellence</strong>, Faculty of Social and Historical Sciences, University College London</div>
+  </div>
+</div>
+
+## Conferences and seminars (including scheduled)
+
+- 2026 Asia Winter Meeting of the Econometric Society
+- 2026 Econometric Society Interdisciplinary Frontier Economics and AI+ML Meeting (ESIF-AIML)
+- 2025 UCL-CeMMAP Ph.D. Econometrics Research Day
+- UCL Econometrics Brownbag Seminar
+
+## Referee service
+
+Journal of Business &amp; Economic Statistics
 
 ## Teaching experience
 
@@ -80,22 +116,6 @@ Econometrics; unstructured data; factor models.
   </div>
 </div>
 
-## Scholarship
-
-<div class="cv-list">
-  <div class="cv-item">
-    <div class="cv-date">2022-present</div>
-    <div><strong>Center for Microdata Methods and Practice (CeMMAP)</strong>, PhD scholarship</div>
-  </div>
-</div>
-
-## Conferences and seminars
-
-- UCL Econometrics Brownbag Seminar
-- 2026 Asia Winter Meeting of the Econometric Society
-- 2026 Econometric Society Interdisciplinary Frontier Economics and AI+ML Meeting (ESIF-AIML2026)
-- 2025 UCL-CeMMAP Ph.D. Econometrics Research Day
-
 ## Other information
 
 <div class="cv-list">
@@ -106,5 +126,26 @@ Econometrics; unstructured data; factor models.
   <div class="cv-item">
     <div class="cv-date">Programming</div>
     <div>MATLAB, Python, R</div>
+  </div>
+</div>
+
+## References
+
+<div class="cv-list">
+  <div class="cv-item">
+    <div class="cv-date">Principal supervisor</div>
+    <div><strong>Áureo de Paula</strong><br>Professor of Economics, University College London<br><a href="mailto:a.paula@ucl.ac.uk">a.paula@ucl.ac.uk</a></div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-date">Secondary supervisor</div>
+    <div><strong>Andrei Zeleneev</strong><br>Assistant Professor of Economics, University College London<br><a href="mailto:a.zeleneev@ucl.ac.uk">a.zeleneev@ucl.ac.uk</a></div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-date"></div>
+    <div><strong>Stephen Hansen</strong><br>Professor of Economics, University College London<br><a href="mailto:stephen.hansen@ucl.ac.uk">stephen.hansen@ucl.ac.uk</a></div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-date"></div>
+    <div><strong>Timothy Christensen</strong><br>Professor of Economics, Yale University<br><a href="mailto:timothy.christensen@yale.edu">timothy.christensen@yale.edu</a></div>
   </div>
 </div>
