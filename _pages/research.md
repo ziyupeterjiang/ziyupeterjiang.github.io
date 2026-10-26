@@ -11,6 +11,14 @@ My research connects methods from machine learning and computer science with eco
 
 Drafts without public links are available upon request.
 
+## Job Market Paper
+
+<article class="paper-card paper-card--featured">
+  <h3>Subjective Annotation Studies: Valid Inference and Annotation Design</h3>
+
+  <p><strong>Abstract.</strong> We develop a statistical framework for annotation studies of inherently subjective features of unstructured data. In the absence of a conventional ground-truth measurement, we define document-level measurements relative to a reference population of annotators whose responses are relevant to the underlying economic question. Our goal is valid inference for economic parameters which can be written as weighted averages of these measurements and smooth functions of such weighted averages. We develop an annotation design and establish asymptotically valid inference for estimators that combine machine-generated measurements for the full corpus with human annotations of sampled documents. Our analysis accounts for uncertainty from document sampling, limited annotations per document, and annotator reuse. Moreover, the resulting variance formula allows us to derive the optimal allocation of a limited annotation budget for weighted corpus averages. The resulting optimal rule always prioritises increasing a document's sampling probability before increasing its number of annotations above the required minimum. It assigns more resources to documents with larger absolute weights in the target, less accurate machine predictions, or more variable annotator responses. We illustrate the method with simulations calibrated to Wikipedia toxicity annotations and an empirical application based on Shapiro and Wilson (2022).</p>
+</article>
+
 ## Working Papers
 
 <article class="paper-card paper-card--featured">
@@ -56,5 +64,3 @@ Drafts without public links are available upon request.
     <strong>Status:</strong> Work in progress
   </p>
 </article>
-
-<!-- When you are on the job market, add a separate "Job Market Paper" heading above the relevant paper and place it first. -->
