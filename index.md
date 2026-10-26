@@ -128,7 +128,7 @@ author_profile: false
     <p class="jm-kicker">PhD Candidate in Economics · University College London</p>
 
     <p class="jm-lead">
-      I am a PhD candidate in Economics at University College London. My research is in econometrics, with a focus on AI and machine learning methods in economics, natural language processing and unstructured data, and factor models. I also have interests in causal inference methods.
+      I am a PhD candidate in Economics at University College London. My research is in econometrics, with a focus on AI and machine learning methods in economics, methods utilising unstructured data, and factor models. I also have interests in causal inference methods.
     </p>
 
     <!-- Add this sentence when you are on the job market:
@@ -153,7 +153,7 @@ author_profile: false
     <ul>
       <li>Econometrics</li>
       <li>AI and Machine Learning Methods in Economics</li>
-      <li>NLP Methods and Unstructured Data</li>
+      <li>Methods Utilising Unstructured Data</li>
       <li>Factor Models</li>
     </ul>
   </section>
