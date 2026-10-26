@@ -158,6 +158,12 @@ author_profile: false
   </section>
 </div>
 
+## Job Market Paper
+
+<article class="home-paper">
+  <h3>Subjective Annotation Studies: Valid Inference and Annotation Design</h3>
+</article>
+
 ## Working Papers
 
 <div class="home-paper-list">
