@@ -61,6 +61,7 @@ Econometrics; AI and Machine Learning Methods in Economics; NLP Methods and Unst
 <article class="paper-card">
   <h3>Moment-Based Inference for Regression with Latent Dirichlet Covariates</h3>
   <p class="paper-meta">Working paper.</p>
+  <p class="paper-links"><a href="https://arxiv.org/abs/2605.30718" class="btn btn--primary btn--small">arXiv</a></p>
 </article>
 
 ## Work in progress
