@@ -163,6 +163,10 @@ author_profile: false
 
 <article class="home-paper">
   <h3>Subjective Annotation Studies: Valid Inference and Annotation Design</h3>
+  <p class="paper-links">
+    <a href="/papers/jmp.pdf" class="btn btn--primary">Read paper (PDF)</a><br>
+    <small><a href="/papers/online_appendix.pdf">Online appendix (PDF)</a></small>
+  </p>
 </article>
 
 ## Working Papers
